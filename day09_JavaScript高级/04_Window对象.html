@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window对象</title>
+
+   
+
+</head>
+<body>
+    
+        <input type="button" value="打开新的窗口" id="OpenBtn"></input>
+        <input type="button" value="关闭窗口" id="CloseBtn"></input>
+
+     <script>
+         // 1.确认按钮和取消按钮的对话框
+    /*   var flag =  confirm("您确定要退出吗?"); //两种选择确定和取消 返回true或false
+
+        if(flag){
+            window.alert("欢迎再次访问！");
+        }else{
+            alert("手别抖");
+        }
+    */
+
+        // 2.输入框
+        // var a = prompt("请输入姓名");
+        // alert(a);
+
+
+       // 3.打开一个新的浏览器窗口
+    //   var a = document.getElementById("OpenBtn");
+    //   var newWindow;
+    //   a.onclick=function(){
+    //      newWindow =  window.open("https://www.baidu.com");
+    //   }
+
+    //   // 4.关闭一个浏览器窗口
+
+    //     var b = document.getElementById("CloseBtn");
+    //     b.onclick = function(){
+    //         newWindow.close();
+    //     }
+
+        // 5.一次性定时器
+        var id = setTimeout(fun,3000);
+         clearTimeout(id);
+
+        // 6.循环定时器
+
+       // setInterval(fun,2000)
+
+
+
+        function fun(){
+            alert('boom~~~');
+        }
+
+    </script>
+</body>
+</html>

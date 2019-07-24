@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例</title>
+</head>
+<body>
+    
+
+    <img src="img/off.gif" id="light">
+
+
+    <script>
+        
+        // 1. 获取图片对象
+        var light1 = document.getElementById("light");        
+        
+        // light1.src = "img/on.gif";
+
+        // 2.绑定单击事件
+        light1.onclick = light;
+        var flag = false; // 灯灭掉为false
+        function light(){
+            if(flag){
+                light1.src = "img/off.gif";   
+                flag = false;
+            }else{
+                light1.src = "img/on.gif";   
+                flag = true;
+            }
+            
+        }
+
+    </script>
+
+</body>
+</html>

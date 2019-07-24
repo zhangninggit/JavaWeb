@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+</head>
+<body>
+     <img src="img/banner_1.jpg" id="img1" width="100%">
+     <!-- <img src="img/banner_2.jpg" id="img2">
+     <img src="img/banner_3.jpg" id="img3"> -->
+
+    
+     <script>
+      
+        var img1 = document.getElementById("img1");
+        
+        
+        var flag = 1;
+        function fun(){
+            if(flag===1){
+                img1.src="img/banner_2.jpg";
+                flag = 2;
+            }if(flag===2){
+                img1.src="img/banner_3.jpg";
+                flag = 3;
+            }else{
+                img1.src="img/banner_1.jpg";
+                flag = 1;
+            }
+        }
+
+        var number = 1;
+        function fun1(){
+            number++
+            if(number>3)
+            {
+                number=1;
+            }
+            img1.src="img/banner_"+number+".jpg";
+        }
+
+
+       setInterval(fun1,2000);
+
+    </script>
+
+
+</body>
+</html>

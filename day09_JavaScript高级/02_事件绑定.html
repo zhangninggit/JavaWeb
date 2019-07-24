@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定</title>
+
+    
+</head>
+<body>
+
+    <img src="img/off.gif" alt="" id="light" onclick="fun();">
+    <img src="img/off.gif" alt="" id="light2">
+
+    
+    <script>
+        function fun() {
+            alert('我被点击了......');
+            alert('大家好');
+            alert('我又被点击了......');
+        }
+
+        function fun2() {
+            alert('为什么老是点我fun2......');
+        }
+        // 属性值所在的代码执行了才能通过getElementsById()通过ID获取到标签
+       var a =  document.getElementById("light2");
+        a.onclick = fun2;
+
+    </script>
+   
+</body>
+</html>
+
+

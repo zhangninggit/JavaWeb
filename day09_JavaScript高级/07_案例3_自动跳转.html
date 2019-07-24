@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时自动跳转</title>
+
+    <style>
+        p{
+            text-align: center;
+        }
+        
+        #num{
+            color: #ff0000;
+        }
+
+        #time{
+            color: #ff0000;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <p>
+          <!-- <div id="num">5</div>   div标签会自动换行 对整块区域进行管理  通常是div标签包含p标签-->
+          <span id="time">5</span>  <!-- div标签不会换行 -->
+         秒之后,自动跳转到首页...
+    </p>
+
+    <Script>
+        
+        // 1.第1步
+       var time =  document.getElementById("time");  // 通过id获取到span标签
+
+        // 设置循环定时器
+
+        setInterval(fun,1000);
+
+        var num = 5;
+        function fun(){
+            num--;
+            if(num == 0){
+                location.href="https://www.baidu.com";
+            }
+                // 1.第2步
+            time.innerHTML=num;                // .对象设置属性值，.innerHtml设置文本
+        }
+
+    </Script>
+
+</body>
+</html>
