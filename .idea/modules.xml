@@ -5,8 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/day04_JDBC/day04_JDBC.iml" filepath="$PROJECT_DIR$/day04_JDBC/day04_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05_DataSource&amp;JdbcTemplate/day05_DataSource&amp;JdbcTemplate.iml" filepath="$PROJECT_DIR$/day05_DataSource&amp;JdbcTemplate/day05_DataSource&amp;JdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_html/day08_javaScript基础.iml" filepath="$PROJECT_DIR$/day06_html/day08_javaScript基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12_xml/day12_xml.iml" filepath="$PROJECT_DIR$/day12_xml/day12_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_servlet/day13_servlet.iml" filepath="$PROJECT_DIR$/day13_servlet/day13_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" filepath="$PROJECT_DIR$/day13_tomcat/day13_tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_servlet&amp;http&amp;request/day14_servlet&amp;http&amp;request.iml" filepath="$PROJECT_DIR$/day14_servlet&amp;http&amp;request/day14_servlet&amp;http&amp;request.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_test/day14_test.iml" filepath="$PROJECT_DIR$/day14_test/day14_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_Request&amp;Response/day15_Request&amp;Response.iml" filepath="$PROJECT_DIR$/day15_Request&amp;Response/day15_Request&amp;Response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_cookies&amp;session/day16_cookies&amp;session.iml" filepath="$PROJECT_DIR$/day16_cookies&amp;session/day16_cookies&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19_filter&amp;listener/day19_filter&amp;listener.iml" filepath="$PROJECT_DIR$/day19_filter&amp;listener/day19_filter&amp;listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/day22_Ajax&amp;Json/day22_Ajax&amp;Json.iml" />
     </modules>
   </component>
 </project>

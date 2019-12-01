@@ -85,7 +85,7 @@ public class JdbcUtils {
 
         close(null,stmt,conn);
     }
-    // 获取连接池对线象
+    // 获取连接池对象
 
     public static DataSource getDatasource(){
         return ds;

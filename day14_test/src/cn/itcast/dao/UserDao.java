@@ -21,12 +21,14 @@ public class UserDao {
 
         String sql = "select * from user where username = ? and password = ?";
 
+
         // 2. 调用query方法
 
         try {
             User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class),
                     loginUser.getUsername(),
                     loginUser.getPassword());
+
 
             return user;
         } catch (DataAccessException e) {

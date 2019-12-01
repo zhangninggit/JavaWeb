@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+    <script>
+
+        person={"name":"张三","age":23,"gender":"男"}
+       // alert(person)
+
+        persons={"persons":[{"name":"李四","age":30,"gender":"女"},{"name":"张三","age":23,"gender":"男"}]}
+        //  alert(persons.persons[0].name)
+
+        persons2=[{"name":"张三","age":23,"gender":"男"},{"name":"李四","age":30,"gender":"男"}]
+      //  alert(person2[0].age)
+
+
+        // for(var p in person){
+        //     alert(p+":"+person[p])
+        // }
+
+        for(var key in persons){
+            p = persons[key];
+            for(i=0;i<p.length;i++){
+                for(var k in p[i]){
+
+                    alert(k+""+p[i][k])
+                }
+
+            }
+        }
+
+
+
+    </script>
+
+<body>
+
+</body>
+</html>

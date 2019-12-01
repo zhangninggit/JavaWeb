@@ -10,7 +10,7 @@
         <servlet-class>cn.itcast.web.servlet.ServletDemo1</servlet-class>
     </servlet>
     
-    <servlet-mapping>
+    <servlet-mapping>   <!-- mapping：映射   -->
         <servlet-name>demo1</servlet-name>
         <url-pattern>/demo1</url-pattern>   <!-- url-pattern: url模式  -->
     </servlet-mapping>

@@ -25,10 +25,10 @@ public class DruidDemo1 {
         // 将is输入流中的druid.properties文件加载到Properties集合中
         pro.load(is);
 
-        // 4. 获取连接池对象
+        // 4. 加载配置文件，获取连接池对象
         DataSource ds = DruidDataSourceFactory.createDataSource(pro);
 
-        // 5. 获取连接对象
+        // 5. 获取连接池对象中的数据库连接对象
         Connection conn = ds.getConnection();
         System.out.println(conn);
     }
